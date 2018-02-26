@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Blunt</OriginalElement>
+  <nodes>
+    <node x="78.0" y="81.0">\Sword</node>
+    <node x="174.0" y="81.0">\Blunt</node>
+    <node x="47.5" y="238.0">\King</node>
+    <node x="0.0" y="81.0">\Axe</node>
+    <node x="40.5" y="0.0">\WeaponBehavior</node>
+    <node x="0.0" y="157.0">\AbstractCharacter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Blunt" target="\WeaponBehavior">
+      <point x="0.0" y="-15.5" />
+      <point x="209.0" y="56.0" />
+      <point x="166.33333333333334" y="56.0" />
+      <point x="50.33333333333334" y="15.5" />
+    </edge>
+    <edge source="\Axe" target="\WeaponBehavior">
+      <point x="0.0" y="-15.5" />
+      <point x="29.0" y="56.0" />
+      <point x="65.66666666666666" y="56.0" />
+      <point x="-50.33333333333334" y="15.5" />
+    </edge>
+    <edge source="\Sword" target="\WeaponBehavior">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="\King" target="\AbstractCharacter">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="122.0" y="134.5" />
+  <SelectedNodes>
+    <node>\Blunt</node>
+  </SelectedNodes>
+  <Categories />
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
